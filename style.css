@@ -1,0 +1,47 @@
+body {
+    font-size: 17px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+input {
+    padding: 10px 20px;
+    font-size: 17px;
+}
+
+.form-element {
+    display: block;
+    margin: 8px 0;
+}
+
+i {
+    color: #FDB813;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+i:hover {
+   color: #FEC849; 
+}
+
+@keyframes fadeOutIn {
+  0% {opacity: 0;}
+  50% {opacity: 0.4;}
+  100% {opacity: 1;}
+}
+
+.fadeOutIn {
+  animation-name: fadeOutIn;
+  animation-duration: 400ms;
+ }
+
+ .hidden {
+     display: none;
+ }
+
+ #newField {
+     margin-right:5px;
+ }
